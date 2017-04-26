@@ -465,7 +465,7 @@ def drawPiece(piece, pixelx=None, pixely=None):
         for y in range(TEMPLATEHEIGHT):
             if shapeToDraw[y][x] != BLANK:
                 drawBox(None, None, piece['color'], pixelx + (x * BOXSIZE), pixely + (y * BOXSIZE))
-
+ 
 
 def drawNextPiece(piece):
 
